@@ -16,8 +16,5 @@ export function destructure() {
         })  
     });
     
-    const [name, street:''] = user;
-    
-    console.log(name + " "+ street);
-    console.log(name + " "+ street);
+    const [name] = user;
 }
